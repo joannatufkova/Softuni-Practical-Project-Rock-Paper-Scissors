@@ -30,7 +30,7 @@ The computer chooses **a random options**, then reveals the **winner**.
 |scissors| paper  | You lose|
 |scissors|   rock | You win |
 
-We use all these situations using a series of checks. 
+We handle all these situations using a series of checks. 
 
 ## Source code
 [Click here](https://github.com/joannatufkova/Softuni-Practical-Project-Rock-Paper-Scissors/blob/main/RockPaperScissors.java)
