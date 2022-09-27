@@ -13,11 +13,11 @@ public class RockPaperScissors {
         System.out.print("Choose [r]ock, [p]aper, [s]cissors: ");
         String playerMove = scanner.nextLine();
 
-        if(playerMove.equals("r") || playerMove.equals("rock")){
+        if(playerMove.equals("r") || playerMove.equals("Rock")){
             playerMove = ROCK;
-        } else if(playerMove.equals("p") || playerMove.equals("paper")){
+        } else if(playerMove.equals("p") || playerMove.equals("Paper")){
             playerMove = PAPER;
-        } else if(playerMove.equals("s") || playerMove.equals("scissors")){
+        } else if(playerMove.equals("s") || playerMove.equals("Scissors")){
             playerMove = SCISSORS;
         } else {
             System.out.println("Invalid input. Try again..");
